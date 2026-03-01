@@ -1,0 +1,36 @@
+{
+    "name": "webext-web-components",
+    "version": "0.1.0",
+    "description": "Web Components library for Chrome extensions — Shadow DOM components, custom elements, reactive state, and reusable UI primitives for MV3.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "web-components",
+        "shadow-dom",
+        "custom-elements",
+        "ui-components",
+        "manifest-v3",
+        "browser-extension",
+        "reactive"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/webext-web-components.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
