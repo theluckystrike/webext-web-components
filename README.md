@@ -1,14 +1,29 @@
 # webext-web-components
 
-A collection of reusable Web Components for Chrome extension popup and options pages.
+[![npm version](https://img.shields.io/npm/v/webext-web-components)](https://npmjs.com/package/webext-web-components)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/theluckystrike/webext-web-components/ci.yml?branch=main)](https://github.com/theluckystrike/webext-web-components/actions)
+[![Discord](https://img.shields.io/badge/Discord-Zovo-blueviolet.svg?logo=discord)](https://discord.gg/zovo)
+[![Website](https://img.shields.io/badge/Website-zovo.one-blue)](https://zovo.one)
+[![GitHub Stars](https://img.shields.io/github/stars/theluckystrike/webext-web-components?style=social)](https://github.com/theluckystrike/webext-web-components)
+
+> A collection of reusable Web Components for Chrome extension popup and options pages.
+
+## Overview
+
+**webext-web-components** is a collection of lightweight, reusable Web Components designed for Chrome extension popup and options pages. All components use Shadow DOM for encapsulation and are customizable via CSS custom properties.
+
+Part of the [Zovo](https://zovo.one) developer tools family.
 
 ## Features
 
-- Shadow DOM encapsulation
-- Customizable via CSS custom properties
-- Lightweight (~5KB total)
-- No framework dependencies
-- TypeScript support
+- ✅ **Shadow DOM** - Style encapsulation
+- ✅ **CSS Custom Properties** - Easy theming
+- ✅ **Lightweight** - ~5KB total
+- ✅ **No Dependencies** - Pure vanilla JS
+- ✅ **TypeScript** - Full type support
+- ✅ **Framework Agnostic** - Works with React, Vue, etc.
 
 ## Installation
 
@@ -210,6 +225,43 @@ const handleClick = () => {
 - Edge 80+
 - Chromium-based browsers
 
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/web-component`
+3. **Make** your changes
+4. **Test** your changes: `npm test`
+5. **Commit** your changes: `git commit -m 'Add new feature'`
+6. **Push** to the branch: `git push origin feature/web-component`
+7. **Submit** a Pull Request
+
+## Built by Zovo
+
+Part of the [Zovo](https://zovo.one) developer tools family — privacy-first Chrome extensions built by developers, for developers.
+
+## See Also
+
+### Related Zovo Repositories
+
+- [webext-skeleton-loader](https://github.com/theluckystrike/webext-skeleton-loader) - Loading placeholders
+- [webext-data-table](https://github.com/theluckystrike/webext-data-table) - Data table component
+- [chrome-extension-starter-mv3](https://github.com/theluckystrike/chrome-extension-starter-mv3) - Extension template
+- [chrome-storage-plus](https://github.com/theluckystrike/chrome-storage-plus) - Type-safe storage
+
+### Zovo Chrome Extensions
+
+- [Zovo Tab Manager](https://chrome.google.com/webstore/detail/zovo-tab-manager) - Manage tabs efficiently
+- [Zovo Focus](https://chrome.google.com/webstore/detail/zovo-focus) - Block distractions
+- [Zovo Permissions Scanner](https://chrome.google.com/webstore/detail/zovo-permissions-scanner) - Check extension privacy grades
+
+Visit [zovo.one](https://zovo.one) for more information.
+
 ## License
 
-MIT
+MIT — [Zovo](https://zovo.one)
+
+---
+
+*Built by developers, for developers. No compromises on privacy.*
